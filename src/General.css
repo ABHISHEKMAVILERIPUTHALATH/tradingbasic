@@ -1,0 +1,40 @@
+.position{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.font{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.color{
+    color: black;
+}
+.special{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form{
+    text-decoration: double;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px
+}
+button{
+    background-color: green;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: double;
+    height: 50px;
+}
